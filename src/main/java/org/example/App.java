@@ -33,6 +33,7 @@ public class App {
 
         System.out.println();
         System.out.println("result: ");
+        System.out.println();
         List<String> result = personsFromFile.stream()
                 .map((person -> person.getSurname() + " " + person.getName() + " "))
                 .peek(System.out::println)
