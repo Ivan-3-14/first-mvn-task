@@ -31,7 +31,7 @@ public class App {
 
         List<Person> personsFromFile = readPersonsFromFile(PATH_TO_FILE);
 
-        System.out.println();
+        System.out.println(" ");
         System.out.println("result: ");
         System.out.println();
         List<String> result = personsFromFile.stream()
